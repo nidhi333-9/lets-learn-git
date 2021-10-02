@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.thumbnail {
+  background-color: chocolate;
+}
+body {
+  margin-top: 33px;
+}
+.container {
+  background-color: darkgray;
+  text-align: center;
+  width: 50%;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.text-center {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.hero {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img-circle {
+  border-radius: 50%;
+  padding-top: 15px;
+}
+.row {
+  background-color: darkgray;
+  text-align: center;
+  width: 50%;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.hero2 {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.hero3 {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main {
+  transform-origin: top left;
+  animation: hinge 2s ease-in-out;
+}
+
+@keyframes hinge {
+  20%,
+  60% {
+    transform: rotate(80deg);
+  }
+  40%,
+  80% {
+    transform: rotate(60deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(600px);
+    opacity: 0;
+  }
+}
